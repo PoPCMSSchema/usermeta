@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
-        "getpop/meta": "dev-master",
-        "getpop/users": "dev-master",
-        "getpop/migrate-usermeta": "^1.0@dev"
+        "getpop/meta": "~0.1",
+        "getpop/users": "~0.1",
+        "getpop/migrate-usermeta": "~0.1"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=7.0",
