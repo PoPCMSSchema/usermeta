@@ -31,10 +31,7 @@
     "autoload": {
         "psr-4": {
             "PoP\\UserMeta\\": "src"
-        },
-        "files": [
-            "initialize.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {
