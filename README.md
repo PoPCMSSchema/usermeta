@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/usermeta
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\UserMeta\Component::initialize();
 ```
--->
 
 ## Standards
 
