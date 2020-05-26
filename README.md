@@ -25,7 +25,9 @@ composer require getpop/usermeta
 Initialize the component:
 
 ``` php
-\PoP\UserMeta\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\UserMeta\Component::class,
+]);
 ```
 
 ## Standards
