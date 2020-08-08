@@ -17,7 +17,7 @@ Adds support for user meta
 Via Composer
 
 ``` bash
-composer require getpop/usermeta
+composer require pop-schema/usermeta
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\UserMeta\Component::class,
+    \PoPSchema\UserMeta\Component::class,
 ]);
 ```
 
@@ -75,17 +75,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/usermeta.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/usermeta.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/usermeta/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/usermeta.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/usermeta.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/usermeta.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/usermeta/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/usermeta.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/usermeta.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/usermeta.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/usermeta
-[link-travis]: https://travis-ci.org/getpop/usermeta
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/usermeta/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/usermeta
-[link-downloads]: https://packagist.org/packages/getpop/usermeta
+[link-packagist]: https://packagist.org/packages/pop-schema/usermeta
+[link-travis]: https://travis-ci.org/pop-schema/usermeta
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/usermeta/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/usermeta
+[link-downloads]: https://packagist.org/packages/pop-schema/usermeta
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors

@@ -1,5 +1,5 @@
 {
-    "name": "getpop/usermeta",
+    "name": "pop-schema/usermeta",
     "type": "library",
     "description": "Adds support for user meta",
     "keywords": [
@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/meta": "dev-master",
-        "getpop/users": "dev-master",
-        "getpop/migrate-usermeta": "dev-master"
+        "pop-schema/meta": "dev-master",
+        "pop-schema/users": "dev-master",
+        "pop-schema/migrate-usermeta": "dev-master"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\UserMeta\\": "src"
+            "PoPSchema\\UserMeta\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\UserMeta\\": "tests"
+            "PoPSchema\\UserMeta\\": "tests"
         }
     },
     "scripts": {
