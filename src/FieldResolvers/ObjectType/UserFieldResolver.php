@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PoPSchema\UserMeta\FieldResolvers;
+namespace PoPSchema\UserMeta\FieldResolvers\ObjectType;
 
-use PoP\ComponentModel\FieldResolvers\AbstractDBDataFieldResolver;
+use PoP\ComponentModel\FieldResolvers\ObjectType\AbstractDBDataFieldResolver;
 use PoP\ComponentModel\TypeResolvers\ObjectType\ObjectTypeResolverInterface;
-use PoPSchema\Meta\InterfaceTypeFieldResolvers\WithMetaInterfaceTypeFieldResolver;
+use PoPSchema\Meta\FieldResolvers\InterfaceType\WithMetaInterfaceTypeFieldResolver;
 use PoPSchema\UserMeta\Facades\UserMetaTypeAPIFacade;
 use PoPSchema\Users\TypeResolvers\ObjectType\UserTypeResolver;
 
