@@ -22,9 +22,13 @@ class UserObjectTypeFieldResolver extends AbstractWithMetaObjectTypeFieldResolve
     }
     final protected function getUserMetaTypeAPI(): UserMetaTypeAPIInterface
     {
+        /** @var UserMetaTypeAPIInterface */
         return $this->userMetaTypeAPI ??= $this->instanceManager->getInstance(UserMetaTypeAPIInterface::class);
     }
 
+    /**
+     * @return array<class-string<ObjectTypeResolverInterface>>
+     */
     public function getObjectTypeResolverClassesToAttachTo(): array
     {
         return [
